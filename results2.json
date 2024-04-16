@@ -1,0 +1,208 @@
+{
+  "config": {
+    "configFile": "D:\\Thush_IT_Learn\\Thush_Playwright_Learn\\PlaywrightFramework\\playwright.config.js",
+    "rootDir": "D:/Thush_IT_Learn/Thush_Playwright_Learn/PlaywrightFramework/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results2.json"
+        }
+      ],
+      [
+        "D:\\Thush_IT_Learn\\Thush_Playwright_Learn\\PlaywrightFramework\\node_modules\\allure-playwright\\dist\\index.js",
+        {
+          "outputFolder": "my-allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "D:/Thush_IT_Learn/Thush_Playwright_Learn/PlaywrightFramework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/Thush_IT_Learn/Thush_Playwright_Learn/PlaywrightFramework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/Thush_IT_Learn/Thush_Playwright_Learn/PlaywrightFramework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "D:/Thush_IT_Learn/Thush_Playwright_Learn/PlaywrightFramework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "D:/Thush_IT_Learn/Thush_Playwright_Learn/PlaywrightFramework/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "D:/Thush_IT_Learn/Thush_Playwright_Learn/PlaywrightFramework/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.43.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "PAGE_OBJECT_MODEL.spec.js",
+      "file": "PAGE_OBJECT_MODEL.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "POM",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 13816,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Navigating to login page...\n"
+                    },
+                    {
+                      "text": "Logging in with username: pavanol\n"
+                    },
+                    {
+                      "text": "Iphone 6 32gb\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-16T13:12:33.013Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9db4ec90dc7423f47fc9-f5b8f5c2123efae233e5",
+          "file": "PAGE_OBJECT_MODEL.spec.js",
+          "line": 29,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "Test2.spec.js",
+      "file": "Test2.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "POM2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 14219,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Navigating to login page...\n"
+                    },
+                    {
+                      "text": "Logging in with username: pavanol\n"
+                    },
+                    {
+                      "text": "Iphone 6 32gb\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-16T13:12:33.014Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8c9c349482f1ac1074d7-981bf80a71368d54abda",
+          "file": "Test2.spec.js",
+          "line": 29,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-04-16T13:12:32.350Z",
+    "duration": 15382.634999999998,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

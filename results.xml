@@ -1,0 +1,22 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="15.345219">
+<testsuite name="PAGE_OBJECT_MODEL.spec.js" timestamp="2024-04-16T13:12:32.406Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.816" errors="0">
+<testcase name="POM" classname="PAGE_OBJECT_MODEL.spec.js" time="13.816">
+<system-out>
+<![CDATA[Navigating to login page...
+Logging in with username: pavanol
+Iphone 6 32gb
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Test2.spec.js" timestamp="2024-04-16T13:12:32.406Z" hostname="chromium" tests="1" failures="0" skipped="0" time="14.219" errors="0">
+<testcase name="POM2" classname="Test2.spec.js" time="14.219">
+<system-out>
+<![CDATA[Navigating to login page...
+Logging in with username: pavanol
+Iphone 6 32gb
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
